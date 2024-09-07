@@ -2,11 +2,11 @@ import Logo from "../assets/Logo.png"
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center w-full bg-[#505f6e] text-white h-16">
+    <div className="flex justify-between items-center w-full bg-[#505f6e] text-white py-5">
       <nav className="font-mono px-4 flex justify-between items-center w-full flex-wrap">
         <div className="logo max-w-9">
-            {/* <img src={Logo} alt="" /> */}
-            <h1 className="font-serif font-bold text-2xl">RITESH</h1>
+            <img src={Logo} alt="" />
+            {/* <h1 className="font-serif font-bold text-2xl">RITESH</h1> */}
         </div>
         <ul className="flex gap-6 font-semibold">
             <li className="cursor-pointer">Home</li>
